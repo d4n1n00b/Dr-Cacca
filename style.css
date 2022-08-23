@@ -115,7 +115,20 @@ html {
   font-family: 'Press Start 2P', cursive;
   font-size: 60px;
   color: #FFFFFF;
-  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, red 0px 0px 20px, red 0px 0px 30px, red 0px 0px 40px, red 0px 0px 50px, red 0px 0px 75px;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #e327ff 0px 0px 20px, #e327ff 0px 0px 30px, #e327ff 0px 0px 40px, #e327ff 0px 0px 50px, #e327ff 0px 0px 75px;
+  animation-name: colors;
+  animation-duration: 1s;
+  animation-iteration-count: infinite
+}
+
+@keyframes colors {
+  0%   {  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #e327ff 0px 0px 20px, #e327ff 0px 0px 30px, #e327ff 0px 0px 40px, #e327ff 0px 0px 50px, #e327ff 0px 0px 75px;}
+
+  33%  {  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #65b2fb 0px 0px 20px, #65b2fb 0px 0px 30px, #65b2fb 0px 0px 40px, #65b2fb 0px 0px 50px, #65b2fb 0px 0px 75px;}
+
+  66%  {  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #40ccc8 0px 0px 20px, #40ccc8 0px 0px 30px, #40ccc8 0px 0px 40px, #40ccc8 0px 0px 50px, #40ccc8 0px 0px 75px;}
+
+  99%  {  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #e327ff 0px 0px 20px, #e327ff 0px 0px 30px, #e327ff 0px 0px 40px, #e327ff 0px 0px 50px, #e327ff 0px 0px 75px;}
 }
 
 
@@ -213,7 +226,7 @@ footer{
   font-size: 30px;
   color: #556184;
   bottom: 10px;
-  border-radius: 30px;
+  border-radius: 50px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -271,18 +284,17 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  background: #1ceafc;
+  background: #242938;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4f17e1;
+  background: #909090;
 }
 
 
