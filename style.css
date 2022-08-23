@@ -391,10 +391,20 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px
   z-index: -100;
 }
 
+.phoneDowFoot{
+  height: auto;
+  visibility: visible;
+  margin: 0px;
+  position: relative;
+  top: 350px;
+  z-index: -100;
+  transform: scaleY(-1);
+}
+
 footer{
   background-color: var(--black);
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-bottom: 40px;
   padding-top: 40px;
   margin: 0px;
