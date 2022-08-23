@@ -243,6 +243,10 @@ footer{
 }
 
 
+.boh{
+  visibility: show;
+}
+
 .insta{
   transition: all 0.5s ease-in;
   text-decoration: none;
@@ -421,9 +425,12 @@ footer{
 }
 
 
+.boh{
+  visibility: hidden;
+  font-size: 0px;
+}
+
 .social > li{
-  position: relative;
-  right: 10px;
   text-align: center;
   list-style-type: none;
   display: inline-block;
@@ -453,7 +460,6 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px
 color: #FFFFFF;
 text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px 0px 20px, #312be2 0px 0px 30px, #312be2 0px 0px 40px, #312be2 0px 0px 50px, #312be2 0px 0px 75px;
 }
-
 
 
 }
