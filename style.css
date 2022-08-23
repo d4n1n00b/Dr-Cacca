@@ -145,6 +145,15 @@ html {
   z-index: -100;
 }
 
+.phoneDowFoot{
+  margin: 0px;
+  position: relative;
+  top: 10px;
+  z-index: -100;
+  visibility: hidden;
+  height: 0px;
+}
+
 .phoneUpWave{
   margin: 0px;
   position: relative;
