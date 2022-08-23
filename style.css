@@ -253,7 +253,7 @@ footer{
 
 .insta:hover{
 color: #FFFFFF;
-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c920f7 0px 0px 20px, #c920f7 0px 0px 30px, #c920f7 0px 0px 40px, #c920f7 0px 0px 50px, #c920f7 0px 0px 75px;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #ff8e0d 0px 0px 30px, #ff8e0d 0px 0px 40px, #ff8e0d 0px 0px 50px, #ff8e0d 0px 0px 75px;
 }
 
 .open{
@@ -310,6 +310,37 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px
   flex-basis: 30%;
 }
 
+.insta{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #ff8e0d 0px 0px 30px, #ff8e0d 0px 0px 40px, #ff8e0d 0px 0px 50px, #ff8e0d 0px 0px 75px;
+}
+
+
+.open{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #52fefc 0px 0px 30px, #52fefc 0px 0px 40px, #52fefc 0px 0px 50px, #52fefc 0px 0px 75px;
+}
+
+
+.tweet{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px 0px 20px, #312be2 0px 0px 30px, #312be2 0px 0px 40px, #312be2 0px 0px 50px, #312be2 0px 0px 75px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*--------  Tablet  --------*/
+
+
 @media (max-width: 700px){
 
   .poop{
@@ -321,8 +352,45 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px
   flex-basis: 40%;
 }
 
+.limited{
+  line-height: 100px;
 }
 
+
+.insta{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #ff8e0d 0px 0px 30px, #ff8e0d 0px 0px 40px, #ff8e0d 0px 0px 50px, #ff8e0d 0px 0px 75px;
+}
+
+
+.open{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #52fefc 0px 0px 30px, #52fefc 0px 0px 40px, #52fefc 0px 0px 50px, #52fefc 0px 0px 75px;
+}
+
+
+.tweet{
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px 0px 20px, #312be2 0px 0px 30px, #312be2 0px 0px 40px, #312be2 0px 0px 50px, #312be2 0px 0px 75px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------  Telefono  --------*/
 
 
 @media (max-width: 470px){
@@ -450,14 +518,8 @@ footer{
 
 
 .insta{
-  transition: all 0.5s ease-in;
-  text-decoration: none;
-  color: #556184;
-}
-
-.insta{
 color: #FFFFFF;
-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c920f7 0px 0px 20px, #c920f7 0px 0px 30px, #c920f7 0px 0px 40px, #c920f7 0px 0px 50px, #c920f7 0px 0px 75px;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #ff8e0d 0px 0px 30px, #ff8e0d 0px 0px 40px, #ff8e0d 0px 0px 50px, #ff8e0d 0px 0px 75px;
 }
 
 
@@ -465,6 +527,7 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c920f7 0px
 color: #FFFFFF;
 text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #52fefc 0px 0px 20px, #52fefc 0px 0px 30px, #52fefc 0px 0px 40px, #52fefc 0px 0px 50px, #52fefc 0px 0px 75px;
 }
+
 
 .tweet{
 color: #FFFFFF;
