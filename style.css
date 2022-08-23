@@ -411,7 +411,6 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #312be2 0px
 
 footer{
   text-align: center;
-  position: relative;
   background-color: var(--black);
   line-height: 25px;
   padding-bottom: 2px;
